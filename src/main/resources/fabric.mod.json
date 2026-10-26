@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "clientmod",
+  "version": "1.0.0",
+  "name": "Custom Client Mod",
+  "description": "Client Mod with Motion Blur and custom features",
+  "authors": [ "YourName" ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.client.mod.CustomClientMod"
+    ]
+  },
+  "mixins": [
+    "clientmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
